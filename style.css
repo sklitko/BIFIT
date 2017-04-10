@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+table {
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 700px;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+thead tr {
+    height: 45px;
+}
+
+tbody {
+    border: 1px solid;
+}
+
+tr {
+    height: 35px;
+}
+
+.sort {
+    width: 125px;
+}
+
+.sort:hover {
+    text-decoration:underline
+}
+
+.body td {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+
+.body tr td:last-child {
+    text-align: center;
+}
+
+.body tr:hover {
+    background: lightblue;
+}
+
+.summ {
+    text-align: center;
+}
+
+.totals {
+    background: lightblue;
+}
+
+.totals td {
+    padding: 5px;
+    border-right: 1px solid;
+}
+.totals strong {
+    color: red;
+}
+
+.allSumm {
+    text-align: center
+}
+
